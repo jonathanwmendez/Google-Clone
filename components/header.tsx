@@ -4,6 +4,8 @@ import { useRouter } from 'next/router'
 import { useRef } from 'react'
 import { XMarkIcon, MicrophoneIcon, MagnifyingGlassIcon } from '@heroicons/react/24/solid'
 import Avatar from '../components/avatar'
+import HeaderOptions from './headerOptions'
+
 
 type Props = {}
 
@@ -51,6 +53,8 @@ function Header({}: Props) {
             </form>
             <Avatar className='ml-auto' url='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6zTQ5uSpLHdtyXe2kptbR3fMV9tU9y67c3Q&usqp=CAU' />
         </div>
+        {/* HeaderOptions */}
+        <HeaderOptions />
     </header>
   )
 }
