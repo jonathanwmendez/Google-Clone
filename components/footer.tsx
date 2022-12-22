@@ -3,7 +3,7 @@ import { GlobeAltIcon } from '@heroicons/react/24/outline'
 
 type Props = {}
 
-function footer({}: Props) {
+function Footer({}: Props) {
   return (
     <footer className='grid w-full divide-y-[1px] divide-gray-300 bg-gray-100 text-sm text-gray-500'>
         <div className='px-8 py-3'>
@@ -28,4 +28,4 @@ function footer({}: Props) {
   )
 }
 
-export default footer
+export default Footer
