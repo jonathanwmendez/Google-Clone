@@ -48,7 +48,7 @@ export default function Home() {
           <Squares2X2Icon className='h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer' />
 
           {/* Avatar */}
-          <Avatar url='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6zTQ5uSpLHdtyXe2kptbR3fMV9tU9y67c3Q&usqp=CAU'/>
+          <Avatar url='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6zTQ5uSpLHdtyXe2kptbR3fMV9tU9y67c3Q&usqp=CAU' />
         </div>
       </header>
 
