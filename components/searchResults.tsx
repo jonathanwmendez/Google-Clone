@@ -2,7 +2,7 @@ import React from 'react'
 import PaginationButtons from './paginationButtons'
 
 type Props = {
-    results: string;
+    results: any;
 }
 
 function SearchResults({ results }: Props) {
