@@ -1,7 +1,8 @@
 import React from 'react'
+import PaginationButtons from './paginationButtons'
 
 type Props = {
-    results: any;
+    results: string;
 }
 
 function SearchResults({ results }: Props) {
@@ -29,6 +30,7 @@ function SearchResults({ results }: Props) {
             </div>
         ))}
 
+        <PaginationButtons />
     </div>
   )
 }

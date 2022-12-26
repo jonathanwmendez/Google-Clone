@@ -6,7 +6,7 @@ import { useRouter } from 'next/router'
 import SearchResults from '../components/searchResults'
 
 type Props = {
-  results: any;
+  results: string;
 }
 
 function Search({ results }: Props) {
